@@ -1,0 +1,23 @@
+# ninja log v5
+8	12012	7629151040713146	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	74bb1bb15e226797
+28	9092	7629151011557429	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	13fb020daf8a9253
+25	11929	7629151039897194	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	78f01f1afc8a6b3f
+5	11786	7629151038471414	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	1755e4b5500f8124
+9093	9197	7629151012614037	D:/Fronterav6/Proyecto-VR-Singleplayer-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/z1j252o6/obj/arm64-v8a/libswappywrapper.so	f7c8f22abe50a105
+10	10461	7629151024639482	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	6d44dab28434a730
+13	11692	7629151037553589	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	a04b7a49f5582b65
+1	11789	7629151038506787	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	5eee8a0c8019eb0e
+22	11774	7629151038374872	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	443e6cc5dbd22f8a
+18	11994	7629151040550174	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	5ac4ec9d996d09d8
+12012	12711	7629151047690658	D:/Fronterav6/Proyecto-VR-Singleplayer-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/z1j252o6/obj/arm64-v8a/libgame.so	6a02412febd7a378
+378	15602	7629158559493410	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	13fb020daf8a9253
+15603	18263	7629158591282594	D:/Fronterav6/Proyecto-VR-Singleplayer-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/z1j252o6/obj/arm64-v8a/libswappywrapper.so	f7c8f22abe50a105
+359	19182	7629158600476047	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	6d44dab28434a730
+371	19707	7629158605696789	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	443e6cc5dbd22f8a
+355	19762	7629158606271144	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	1755e4b5500f8124
+261	19841	7629158607043044	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	a04b7a49f5582b65
+375	19970	7629158608324260	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	78f01f1afc8a6b3f
+258	19976	7629158608390663	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	5eee8a0c8019eb0e
+177	20301	7629158611609721	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	74bb1bb15e226797
+367	20307	7629158611650485	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	5ac4ec9d996d09d8
+20308	20466	7629158613289231	D:/Fronterav6/Proyecto-VR-Singleplayer-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/z1j252o6/obj/arm64-v8a/libgame.so	6a02412febd7a378
