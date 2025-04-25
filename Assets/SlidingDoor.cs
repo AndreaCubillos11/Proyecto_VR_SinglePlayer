@@ -4,17 +4,17 @@ using UnityEngine;
 public class SlidingDoor : MonoBehaviour
 {
     [Header("Left Door Settings")]
-    public Transform leftDoor;            // Puerta izquierda
-    public Vector3 leftOpenPosition;      // Posición abierta de la puerta izquierda
-    public Vector3 leftClosedPosition;    // Posición cerrada de la puerta izquierda
+    public Transform leftDoor;
+    public Vector3 leftOpenPosition;
+    public Vector3 leftClosedPosition;
 
     [Header("Right Door Settings")]
-    public Transform rightDoor;           // Puerta derecha
-    public Vector3 rightOpenPosition;     // Posición abierta de la puerta derecha
-    public Vector3 rightClosedPosition;   // Posición cerrada de la puerta derecha
+    public Transform rightDoor;
+    public Vector3 rightOpenPosition;
+    public Vector3 rightClosedPosition;
 
     [Header("General Settings")]
-    public float doorSpeed = 2f;          // Velocidad de movimiento de las puertas
+    public float doorSpeed = 2f;
 
     private bool isOpen = false;
 
@@ -22,10 +22,7 @@ public class SlidingDoor : MonoBehaviour
     {
         if (other.CompareTag("Player") && !isOpen)
         {
-            StopAllCoroutines();
-            StartCoroutine(MoveDoor(leftDoor, leftOpenPosition));
-            StartCoroutine(MoveDoor(rightDoor, rightOpenPosition));
-            isOpen = true;
+            OpenDoors();
         }
     }
 
@@ -33,14 +30,26 @@ public class SlidingDoor : MonoBehaviour
     {
         if (other.CompareTag("Player") && isOpen)
         {
-            StopAllCoroutines();
-            StartCoroutine(MoveDoor(leftDoor, leftClosedPosition));
-            StartCoroutine(MoveDoor(rightDoor, rightClosedPosition));
-            isOpen = false;
+            CloseDoors();
         }
     }
 
-    // Movimiento suave de las puertas
+    private void OpenDoors()
+    {
+        StopAllCoroutines();
+        StartCoroutine(MoveDoor(leftDoor, leftOpenPosition));
+        StartCoroutine(MoveDoor(rightDoor, rightOpenPosition));
+        isOpen = true;
+    }
+
+    private void CloseDoors()
+    {
+        StopAllCoroutines();
+        StartCoroutine(MoveDoor(leftDoor, leftClosedPosition));
+        StartCoroutine(MoveDoor(rightDoor, rightClosedPosition));
+        isOpen = false;
+    }
+
     private IEnumerator MoveDoor(Transform door, Vector3 targetPosition)
     {
         while (Vector3.Distance(door.localPosition, targetPosition) > 0.01f)
@@ -51,4 +60,3 @@ public class SlidingDoor : MonoBehaviour
         door.localPosition = targetPosition;
     }
 }
-
