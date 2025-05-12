@@ -1354,7 +1354,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileValue: 10
-  tileContainer: {fileID: 0}
+  tileContainer: {fileID: 1931729286}
   returnSpeed: 5
   numberText: {fileID: 0}
 --- !u!23 &34288261
@@ -4417,8 +4417,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3ee5be1574afde419bb0ec19a4990f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileValue: 0
-  tileContainer: {fileID: 0}
+  tileValue: 4
+  tileContainer: {fileID: 1931729286}
   returnSpeed: 5
   numberText: {fileID: 0}
 --- !u!23 &108809249
@@ -9416,6 +9416,37 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1886112867}
   m_SourcePrefab: {fileID: 100100000, guid: a4c18952442944083b1fddc06ba477c2, type: 3}
+--- !u!1 &235419343
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 235419344}
+  m_Layer: 0
+  m_Name: PosicionInicial
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &235419344
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 235419343}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.02, y: 0.01, z: -0.02}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 543450652384311812}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &244494800
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13870,13 +13901,13 @@ MonoBehaviour:
   m_StartingInteractionStrengthFilters: []
   m_AttachTransform: {fileID: 0}
   m_SecondaryAttachTransform: {fileID: 0}
-  m_UseDynamicAttach: 0
+  m_UseDynamicAttach: 1
   m_MatchAttachPosition: 1
   m_MatchAttachRotation: 1
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 1
+  m_MovementType: 2
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1
@@ -13941,7 +13972,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 2
@@ -17918,8 +17949,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3ee5be1574afde419bb0ec19a4990f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileValue: 0
-  tileContainer: {fileID: 0}
+  tileValue: 6
+  tileContainer: {fileID: 1931729286}
   returnSpeed: 5
   numberText: {fileID: 0}
 --- !u!23 &513980271
@@ -23580,13 +23611,13 @@ MonoBehaviour:
   m_StartingInteractionStrengthFilters: []
   m_AttachTransform: {fileID: 0}
   m_SecondaryAttachTransform: {fileID: 0}
-  m_UseDynamicAttach: 0
+  m_UseDynamicAttach: 1
   m_MatchAttachPosition: 1
   m_MatchAttachRotation: 1
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 1
+  m_MovementType: 2
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1
@@ -23651,7 +23682,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 2
@@ -24956,8 +24987,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3ee5be1574afde419bb0ec19a4990f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileValue: 0
-  tileContainer: {fileID: 0}
+  tileValue: 8
+  tileContainer: {fileID: 1931729286}
   returnSpeed: 5
   numberText: {fileID: 0}
 --- !u!23 &694888354
@@ -27217,8 +27248,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3ee5be1574afde419bb0ec19a4990f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileValue: 0
-  tileContainer: {fileID: 0}
+  tileValue: 11
+  tileContainer: {fileID: 1931729286}
   returnSpeed: 5
   numberText: {fileID: 0}
 --- !u!23 &765995322
@@ -27853,13 +27884,13 @@ MonoBehaviour:
   m_StartingInteractionStrengthFilters: []
   m_AttachTransform: {fileID: 0}
   m_SecondaryAttachTransform: {fileID: 0}
-  m_UseDynamicAttach: 0
+  m_UseDynamicAttach: 1
   m_MatchAttachPosition: 1
   m_MatchAttachRotation: 1
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 1
+  m_MovementType: 2
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1
@@ -27924,7 +27955,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 2
@@ -30324,7 +30355,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -34039,8 +34070,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3ee5be1574afde419bb0ec19a4990f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileValue: 0
-  tileContainer: {fileID: 0}
+  tileValue: 9
+  tileContainer: {fileID: 1931729286}
   returnSpeed: 5
   numberText: {fileID: 0}
 --- !u!23 &946474833
@@ -38699,8 +38730,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3ee5be1574afde419bb0ec19a4990f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileValue: 0
-  tileContainer: {fileID: 0}
+  tileValue: 12
+  tileContainer: {fileID: 1931729286}
   returnSpeed: 5
   numberText: {fileID: 0}
 --- !u!23 &1076508500
@@ -39047,13 +39078,13 @@ MonoBehaviour:
   m_StartingInteractionStrengthFilters: []
   m_AttachTransform: {fileID: 0}
   m_SecondaryAttachTransform: {fileID: 0}
-  m_UseDynamicAttach: 0
+  m_UseDynamicAttach: 1
   m_MatchAttachPosition: 1
   m_MatchAttachRotation: 1
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 1
+  m_MovementType: 2
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1
@@ -39118,7 +39149,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 2
@@ -41925,8 +41956,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3ee5be1574afde419bb0ec19a4990f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileValue: 0
-  tileContainer: {fileID: 0}
+  tileValue: 7
+  tileContainer: {fileID: 1931729286}
   returnSpeed: 5
   numberText: {fileID: 0}
 --- !u!23 &1164321365
@@ -42238,13 +42269,13 @@ MonoBehaviour:
   m_StartingInteractionStrengthFilters: []
   m_AttachTransform: {fileID: 0}
   m_SecondaryAttachTransform: {fileID: 0}
-  m_UseDynamicAttach: 0
+  m_UseDynamicAttach: 1
   m_MatchAttachPosition: 1
   m_MatchAttachRotation: 1
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 1
+  m_MovementType: 2
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1
@@ -42309,7 +42340,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 2
@@ -46461,8 +46492,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3ee5be1574afde419bb0ec19a4990f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileValue: 0
-  tileContainer: {fileID: 0}
+  tileValue: 14
+  tileContainer: {fileID: 1931729286}
   returnSpeed: 5
   numberText: {fileID: 0}
 --- !u!23 &1302090251
@@ -46880,8 +46911,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3ee5be1574afde419bb0ec19a4990f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileValue: 0
-  tileContainer: {fileID: 0}
+  tileValue: 3
+  tileContainer: {fileID: 1931729286}
   returnSpeed: 5
   numberText: {fileID: 0}
 --- !u!23 &1324310018
@@ -46963,7 +46994,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileValue: 0
-  tileContainer: {fileID: 0}
+  tileContainer: {fileID: 1931729286}
   returnSpeed: 5
   numberText: {fileID: 0}
 --- !u!23 &1324310021
@@ -47106,13 +47137,13 @@ MonoBehaviour:
   m_StartingInteractionStrengthFilters: []
   m_AttachTransform: {fileID: 0}
   m_SecondaryAttachTransform: {fileID: 0}
-  m_UseDynamicAttach: 0
+  m_UseDynamicAttach: 1
   m_MatchAttachPosition: 1
   m_MatchAttachRotation: 1
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 1
+  m_MovementType: 2
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1
@@ -47177,7 +47208,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 2
@@ -47193,7 +47224,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 0}
+  m_InteractionManager: {fileID: 1293100714}
   m_Colliders: []
   m_InteractionLayers:
     m_Bits: 4294967295
@@ -47255,13 +47286,13 @@ MonoBehaviour:
   m_StartingInteractionStrengthFilters: []
   m_AttachTransform: {fileID: 0}
   m_SecondaryAttachTransform: {fileID: 0}
-  m_UseDynamicAttach: 0
+  m_UseDynamicAttach: 1
   m_MatchAttachPosition: 1
   m_MatchAttachRotation: 1
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 1
+  m_MovementType: 0
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1
@@ -47278,7 +47309,7 @@ MonoBehaviour:
   m_SmoothScale: 0
   m_SmoothScaleAmount: 8
   m_TightenScale: 0.1
-  m_ThrowOnDetach: 0
+  m_ThrowOnDetach: 1
   m_ThrowSmoothingDuration: 0.25
   m_ThrowSmoothingCurve:
     serializedVersion: 2
@@ -47326,7 +47357,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 2
@@ -50663,13 +50694,13 @@ MonoBehaviour:
   m_StartingInteractionStrengthFilters: []
   m_AttachTransform: {fileID: 0}
   m_SecondaryAttachTransform: {fileID: 0}
-  m_UseDynamicAttach: 0
+  m_UseDynamicAttach: 1
   m_MatchAttachPosition: 1
   m_MatchAttachRotation: 1
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 1
+  m_MovementType: 2
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1
@@ -50734,7 +50765,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 2
@@ -50935,7 +50966,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 2
@@ -51014,13 +51045,13 @@ MonoBehaviour:
   m_StartingInteractionStrengthFilters: []
   m_AttachTransform: {fileID: 0}
   m_SecondaryAttachTransform: {fileID: 0}
-  m_UseDynamicAttach: 0
+  m_UseDynamicAttach: 1
   m_MatchAttachPosition: 1
   m_MatchAttachRotation: 1
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 1
+  m_MovementType: 2
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1
@@ -51561,13 +51592,13 @@ MonoBehaviour:
   m_StartingInteractionStrengthFilters: []
   m_AttachTransform: {fileID: 0}
   m_SecondaryAttachTransform: {fileID: 0}
-  m_UseDynamicAttach: 0
+  m_UseDynamicAttach: 1
   m_MatchAttachPosition: 1
   m_MatchAttachRotation: 1
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 1
+  m_MovementType: 2
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1
@@ -51632,7 +51663,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 2
@@ -74407,8 +74438,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3ee5be1574afde419bb0ec19a4990f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileValue: 0
-  tileContainer: {fileID: 0}
+  tileValue: 2
+  tileContainer: {fileID: 1931729286}
   returnSpeed: 5
   numberText: {fileID: 0}
 --- !u!23 &1929165370
@@ -74551,13 +74582,13 @@ MonoBehaviour:
   m_StartingInteractionStrengthFilters: []
   m_AttachTransform: {fileID: 0}
   m_SecondaryAttachTransform: {fileID: 0}
-  m_UseDynamicAttach: 0
+  m_UseDynamicAttach: 1
   m_MatchAttachPosition: 1
   m_MatchAttachRotation: 1
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 1
+  m_MovementType: 2
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1
@@ -74622,7 +74653,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 2
@@ -74639,29 +74670,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   correctOrder: 070000000300000001000000090000000d000000020000000b000000040000000a0000000600000005000000080000000e0000000c000000
-  dropZone: {fileID: 0}
-  doorController: {fileID: 0}
---- !u!65 &1931729287
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919132148196335806}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  dropZone: {fileID: 919132148196335807}
+  doorController: {fileID: 944778602}
 --- !u!114 &1931729289
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74669,7 +74679,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132148196335806}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
   m_Name: 
@@ -74810,7 +74820,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 2
 --- !u!1 &1932790246
 GameObject:
   m_ObjectHideFlags: 0
@@ -77121,8 +77131,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3ee5be1574afde419bb0ec19a4990f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileValue: 0
-  tileContainer: {fileID: 0}
+  tileValue: 5
+  tileContainer: {fileID: 1931729286}
   returnSpeed: 5
   numberText: {fileID: 0}
 --- !u!23 &1985624934
@@ -77265,13 +77275,13 @@ MonoBehaviour:
   m_StartingInteractionStrengthFilters: []
   m_AttachTransform: {fileID: 0}
   m_SecondaryAttachTransform: {fileID: 0}
-  m_UseDynamicAttach: 0
+  m_UseDynamicAttach: 1
   m_MatchAttachPosition: 1
   m_MatchAttachRotation: 1
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 1
+  m_MovementType: 2
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1
@@ -77336,7 +77346,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 2
@@ -78379,13 +78389,13 @@ MonoBehaviour:
   m_StartingInteractionStrengthFilters: []
   m_AttachTransform: {fileID: 0}
   m_SecondaryAttachTransform: {fileID: 0}
-  m_UseDynamicAttach: 0
+  m_UseDynamicAttach: 1
   m_MatchAttachPosition: 1
   m_MatchAttachRotation: 1
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 1
+  m_MovementType: 2
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1
@@ -78450,7 +78460,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 2
@@ -79029,8 +79039,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3ee5be1574afde419bb0ec19a4990f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileValue: 0
-  tileContainer: {fileID: 0}
+  tileValue: 13
+  tileContainer: {fileID: 1931729286}
   returnSpeed: 5
   numberText: {fileID: 0}
 --- !u!23 &2032696948
@@ -79173,13 +79183,13 @@ MonoBehaviour:
   m_StartingInteractionStrengthFilters: []
   m_AttachTransform: {fileID: 0}
   m_SecondaryAttachTransform: {fileID: 0}
-  m_UseDynamicAttach: 0
+  m_UseDynamicAttach: 1
   m_MatchAttachPosition: 1
   m_MatchAttachRotation: 1
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 1
+  m_MovementType: 2
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1
@@ -79244,7 +79254,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 2
@@ -79491,8 +79501,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3ee5be1574afde419bb0ec19a4990f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileValue: 0
-  tileContainer: {fileID: 0}
+  tileValue: 1
+  tileContainer: {fileID: 1931729286}
   returnSpeed: 5
   numberText: {fileID: 0}
 --- !u!23 &2037283536
@@ -79635,13 +79645,13 @@ MonoBehaviour:
   m_StartingInteractionStrengthFilters: []
   m_AttachTransform: {fileID: 0}
   m_SecondaryAttachTransform: {fileID: 0}
-  m_UseDynamicAttach: 0
+  m_UseDynamicAttach: 1
   m_MatchAttachPosition: 1
   m_MatchAttachRotation: 1
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 1
+  m_MovementType: 2
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1
@@ -79706,7 +79716,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 2
@@ -85291,6 +85301,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1602728140863226125}
+  - component: {fileID: 1602728140863226127}
+  - component: {fileID: 1602728140863226126}
   m_Layer: 0
   m_Name: Puzzle_Numbers_(board2)_2
   m_TagString: Untagged
@@ -85576,6 +85588,7 @@ Transform:
   - {fileID: 2389009139518268914}
   - {fileID: 3606231730265681636}
   - {fileID: 1602728140863226125}
+  - {fileID: 235419344}
   m_Father: {fileID: 1593507861}
   m_LocalEulerAnglesHint: {x: 85.149, y: 0, z: 0}
 --- !u!4 &543450653058462905
@@ -85764,10 +85777,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 543450652384311812}
-  - component: {fileID: 1931729287}
   - component: {fileID: 1931729286}
   - component: {fileID: 1931729290}
   - component: {fileID: 1931729289}
+  - component: {fileID: 919132148196335807}
+  - component: {fileID: 919132148196335808}
   m_Layer: 0
   m_Name: FBX_Puzzle_Numbers
   m_TagString: Untagged
@@ -85775,6 +85789,44 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &919132148196335807
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148196335806}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: -0.08, y: 0.09, z: -0.06}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &919132148196335808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148196335806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c745b37ae0d1304faa7f02a4648bd66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileContainer: {fileID: 1931729286}
+  boardCollider: {fileID: 0}
+  gridColumns: 3
+  gridRows: 5
+  heightOffset: 0.05
 --- !u!1 &919132148587343363
 GameObject:
   m_ObjectHideFlags: 0
@@ -85860,6 +85912,7 @@ GameObject:
   - component: {fileID: 1324310020}
   - component: {fileID: 1324310028}
   - component: {fileID: 1324310027}
+  - component: {fileID: 2621587700983906995}
   m_Layer: 0
   m_Name: Puzzle_Numbers_(0)
   m_TagString: Untagged
@@ -86261,6 +86314,7 @@ GameObject:
   - component: {fileID: 1302090250}
   - component: {fileID: 2008924564}
   - component: {fileID: 2008924563}
+  - component: {fileID: 1420767636293264920}
   m_Layer: 0
   m_Name: Puzzle_Numbers_(14)
   m_TagString: Untagged
@@ -86268,6 +86322,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1420767636293264920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1420767636293264919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3361aa0c89b8644eb5428e9e4d1f929, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1455486644781339360
 Transform:
   m_ObjectHideFlags: 0
@@ -86329,6 +86395,7 @@ GameObject:
   - component: {fileID: 765995321}
   - component: {fileID: 786247632}
   - component: {fileID: 786247631}
+  - component: {fileID: 1527737400748709421}
   m_Layer: 0
   m_Name: Puzzle_Numbers_(11)
   m_TagString: Untagged
@@ -86336,6 +86403,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1527737400748709421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527737400748709420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3361aa0c89b8644eb5428e9e4d1f929, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1528410291915738962
 GameObject:
   m_ObjectHideFlags: 0
@@ -86350,6 +86429,7 @@ GameObject:
   - component: {fileID: 2037283535}
   - component: {fileID: 2037283540}
   - component: {fileID: 2037283539}
+  - component: {fileID: 7665503150850306398}
   m_Layer: 0
   m_Name: Puzzle_Numbers_(1)
   m_TagString: Untagged
@@ -86374,7 +86454,7 @@ Transform:
   m_GameObject: {fileID: 221982346505829353}
   serializedVersion: 2
   m_LocalRotation: {x: -4.3297813e-17, y: 0.7071068, z: 0.7071068, w: 4.329781e-17}
-  m_LocalPosition: {x: 0, y: 0.006000017, z: 0}
+  m_LocalPosition: {x: 0, y: 0.0126, z: 0.0005}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -86382,6 +86462,38 @@ Transform:
   - {fileID: 8724415821844545649}
   m_Father: {fileID: 543450652384311812}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1602728140863226126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 221982346505829353}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c745b37ae0d1304faa7f02a4648bd66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileContainer: {fileID: 1931729286}
+  boardCollider: {fileID: 0}
+  gridColumns: 5
+  gridRows: 3
+  heightOffset: 0.05
+--- !u!114 &1602728140863226127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 221982346505829353}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9abe0f9993262d6499067a2dbcd0ce1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctOrder: 070000000300000001000000090000000d000000020000000b000000040000000a0000000600000005000000080000000e0000000c00000000000000
+  dropZone: {fileID: 919132148196335807}
+  doorController: {fileID: 944778602}
 --- !u!33 &1624008824020770127
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -87002,6 +87114,7 @@ GameObject:
   - component: {fileID: 1929165369}
   - component: {fileID: 1929165374}
   - component: {fileID: 1929165373}
+  - component: {fileID: 5566518873724366591}
   m_Layer: 0
   m_Name: Puzzle_Numbers_(2)
   m_TagString: Untagged
@@ -87289,6 +87402,7 @@ GameObject:
   - component: {fileID: 694888353}
   - component: {fileID: 664316574}
   - component: {fileID: 664316573}
+  - component: {fileID: 5225884594614096455}
   m_Layer: 0
   m_Name: Puzzle_Numbers_(8)
   m_TagString: Untagged
@@ -87410,6 +87524,18 @@ Transform:
   - {fileID: 5044353422185871571}
   m_Father: {fileID: 7979271093642895338}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2621587700983906995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 971307452924896996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3361aa0c89b8644eb5428e9e4d1f929, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2710583431018902121
 GameObject:
   m_ObjectHideFlags: 0
@@ -88131,7 +88257,7 @@ Transform:
   m_GameObject: {fileID: 132389588145415480}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.0013, z: 0.0001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -88178,6 +88304,7 @@ GameObject:
   - component: {fileID: 513980270}
   - component: {fileID: 358310595}
   - component: {fileID: 358310594}
+  - component: {fileID: 4868965115599526178}
   m_Layer: 0
   m_Name: Puzzle_Numbers_(6)
   m_TagString: Untagged
@@ -89239,6 +89366,18 @@ Transform:
   - {fileID: 3378866456792065291}
   m_Father: {fileID: 7979271093642895338}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4868965115599526178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3555866893834623021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3361aa0c89b8644eb5428e9e4d1f929, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4892625850012446228
 GameObject:
   m_ObjectHideFlags: 0
@@ -89535,6 +89674,7 @@ GameObject:
   - component: {fileID: 2032696947}
   - component: {fileID: 2032696952}
   - component: {fileID: 2032696951}
+  - component: {fileID: 5215559958090341995}
   m_Layer: 0
   m_Name: Puzzle_Numbers_(13)
   m_TagString: Untagged
@@ -89542,6 +89682,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &5215559958090341995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5215559958090341994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3361aa0c89b8644eb5428e9e4d1f929, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &5223380959634054779
 Transform:
   m_ObjectHideFlags: 0
@@ -89575,6 +89727,18 @@ Transform:
   - {fileID: 106929827788983315}
   m_Father: {fileID: 7979271093642895338}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5225884594614096455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2545778558675803295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3361aa0c89b8644eb5428e9e4d1f929, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &5252565661632638350
 Transform:
   m_ObjectHideFlags: 0
@@ -89808,6 +89972,18 @@ Transform:
   - {fileID: 8213558291748213935}
   m_Father: {fileID: 7979271093642895338}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5566518873724366591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2395001914463962205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3361aa0c89b8644eb5428e9e4d1f929, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5585425573117984244
 GameObject:
   m_ObjectHideFlags: 0
@@ -89840,6 +90016,7 @@ GameObject:
   - component: {fileID: 108809248}
   - component: {fileID: 1080145588}
   - component: {fileID: 1080145587}
+  - component: {fileID: 5593234646514850293}
   m_Layer: 0
   m_Name: Puzzle_Numbers_(4)
   m_TagString: Untagged
@@ -89847,6 +90024,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &5593234646514850293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5593234646514850292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3361aa0c89b8644eb5428e9e4d1f929, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &5605396312669477987
 Transform:
   m_ObjectHideFlags: 0
@@ -90222,6 +90411,7 @@ GameObject:
   - component: {fileID: 946474832}
   - component: {fileID: 1423974884}
   - component: {fileID: 1423974883}
+  - component: {fileID: 6014965091157328912}
   m_Layer: 0
   m_Name: Puzzle_Numbers_(9)
   m_TagString: Untagged
@@ -90229,6 +90419,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &6014965091157328912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6014965091157328911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3361aa0c89b8644eb5428e9e4d1f929, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6063734454191058187
 GameObject:
   m_ObjectHideFlags: 0
@@ -90648,6 +90850,7 @@ GameObject:
   - component: {fileID: 1324310017}
   - component: {fileID: 1324310026}
   - component: {fileID: 1324310025}
+  - component: {fileID: 6471646567406241803}
   m_Layer: 0
   m_Name: Puzzle_Numbers_(3)
   m_TagString: Untagged
@@ -90655,6 +90858,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &6471646567406241803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6471646567406241802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3361aa0c89b8644eb5428e9e4d1f929, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!23 &6487290960798187368
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -91494,6 +91709,18 @@ Transform:
   - {fileID: 1716639610629935046}
   m_Father: {fileID: 7979271093642895338}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7665503150850306398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1528410291915738962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3361aa0c89b8644eb5428e9e4d1f929, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7714335321432571238
 GameObject:
   m_ObjectHideFlags: 0
@@ -91557,6 +91784,7 @@ GameObject:
   - component: {fileID: 1076508499}
   - component: {fileID: 1184262292}
   - component: {fileID: 1184262291}
+  - component: {fileID: 7775876951653424179}
   m_Layer: 0
   m_Name: Puzzle_Numbers_(12)
   m_TagString: Untagged
@@ -91564,6 +91792,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &7775876951653424179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7775876951653424178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3361aa0c89b8644eb5428e9e4d1f929, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7798213715226956781
 GameObject:
   m_ObjectHideFlags: 0
@@ -91578,6 +91818,7 @@ GameObject:
   - component: {fileID: 1985624933}
   - component: {fileID: 1985624938}
   - component: {fileID: 1985624937}
+  - component: {fileID: 7854614418683938624}
   m_Layer: 0
   m_Name: Puzzle_Numbers_(5)
   m_TagString: Untagged
@@ -91627,6 +91868,18 @@ Transform:
   - {fileID: 2196421077422080322}
   m_Father: {fileID: 7979271093642895338}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7854614418683938624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7798213715226956781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3361aa0c89b8644eb5428e9e4d1f929, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &7877281113534573126
 Transform:
   m_ObjectHideFlags: 0
@@ -91636,8 +91889,8 @@ Transform:
   m_GameObject: {fileID: 4422677244490831437}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.0006, y: 0.0009, z: -0.0077}
+  m_LocalScale: {x: 1, y: 1.028, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3429860174310690588}
@@ -91773,6 +92026,7 @@ GameObject:
   - component: {fileID: 1164321364}
   - component: {fileID: 1388289038}
   - component: {fileID: 1388289037}
+  - component: {fileID: 8103550241151787834}
   m_Layer: 0
   m_Name: Puzzle_Numbers_(7)
   m_TagString: Untagged
@@ -91780,6 +92034,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &8103550241151787834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8103550241151787833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3361aa0c89b8644eb5428e9e4d1f929, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &8145672713041399332
 Transform:
   m_ObjectHideFlags: 0
@@ -91958,6 +92224,7 @@ GameObject:
   - component: {fileID: 1397174415}
   - component: {fileID: 1397174422}
   - component: {fileID: 1397174424}
+  - component: {fileID: 9172205009273534241}
   m_Layer: 0
   m_Name: Puzzle_Numbers_(10)
   m_TagString: Object
@@ -92279,7 +92546,7 @@ Transform:
   m_GameObject: {fileID: 6924880016470970010}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: -0, y: 0.0004, z: -0.0051}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -92658,6 +92925,18 @@ Transform:
   - {fileID: 244968706653880566}
   m_Father: {fileID: 7979271093642895338}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9172205009273534241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8295302971512345147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3361aa0c89b8644eb5428e9e4d1f929, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

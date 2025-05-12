@@ -51,9 +51,11 @@ public class Tile : MonoBehaviour
         isDragging = true;
         tileCollider.enabled = false;
         originalPosition = transform.position;
-        
+
         if (tileContainer != null)
             tileContainer.UnregisterTile(this);
+
+        Debug.Log($"Ficha {tileValue} comenzó a ser arrastrada.");
     }
 
     private void OnMouseDrag()
@@ -77,7 +79,9 @@ public class Tile : MonoBehaviour
     {
         isDragging = false;
         tileCollider.enabled = true;
-        
+
+        Debug.Log($"Ficha {tileValue} dejó de ser arrastrada.");
+
         if (ShouldSnapToContainer())
             SnapToContainer();
         else
@@ -86,7 +90,7 @@ public class Tile : MonoBehaviour
 
     private bool ShouldSnapToContainer()
     {
-        return tileContainer != null && 
+        return tileContainer != null &&
                tileContainer.IsInDropZone(transform.position);
     }
 
@@ -95,13 +99,15 @@ public class Tile : MonoBehaviour
         Vector3 snapPosition = tileContainer.GetNearestSlotPosition(transform.position);
         transform.position = snapPosition;
         tileContainer.RegisterTile(this);
+
+        Debug.Log($"Ficha {tileValue} colocada en la posición {snapPosition}.");
     }
 
     private IEnumerator SmoothReturn()
     {
         float elapsed = 0;
         Vector3 startPos = transform.position;
-        
+
         while (elapsed < 1f)
         {
             transform.position = Vector3.Lerp(startPos, originalPosition, elapsed);
@@ -118,4 +124,7 @@ public class Tile : MonoBehaviour
             numberText.text = tileValue.ToString();
     }
     #endif
+
+    
 }
+
