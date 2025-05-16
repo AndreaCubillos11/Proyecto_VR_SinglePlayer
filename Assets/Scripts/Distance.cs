@@ -1,45 +1,43 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Distance : MonoBehaviour
 {
-    public AudioSource AudioSource;
+    private bool pressState = false;
+    private Animator animator;
+    private AudioSource audioSource;
 
+    // Start is called before the first frame update
     void Start()
     {
-        if (AudioSource == null)
+        animator = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
+    }
+
+    private void TogglePressState()
+    {
+        pressState = !pressState;
+        animator.SetBool("Pressed", pressState);
+        PlayAudio();
+    }
+
+    private void PlayAudio()
+    {
+        if (audioSource != null)
         {
-            Debug.LogError("AudioSource no asignado en el inspector.");
+            audioSource.Stop();  // Detener si está sonando
+            audioSource.Play();  // Reproducir el audio
         }
     }
 
-    void Update()
+    private void OnTriggerEnter(Collider col)
     {
-        // Puedes añadir lógica de actualización aquí si es necesario
+        TogglePressState();
     }
 
-    public void PlayAudio()
+    private void OnTriggerExit(Collider col)
     {
-        if (AudioSource != null)
-        {
-            AudioSource.Play();
-            Debug.Log("Audio reproducido.");
-        }
-        else
-        {
-            Debug.LogError("AudioSource es null.");
-        }
-    }
-
-    public void PauseAudio()
-    {
-        if (AudioSource != null)
-        {
-            AudioSource.Pause();
-            Debug.Log("Audio pausado.");
-        }
-        else
-        {
-            Debug.LogError("AudioSource es null.");
-        }
+        TogglePressState();
     }
 }
