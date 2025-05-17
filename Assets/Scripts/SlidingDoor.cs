@@ -34,7 +34,7 @@ public class SlidingDoor : MonoBehaviour
         }
     }
 
-    private void OpenDoors()
+    public void OpenDoors() // Cambiado de private a public
     {
         StopAllCoroutines();
         StartCoroutine(MoveDoor(leftDoor, leftOpenPosition));
