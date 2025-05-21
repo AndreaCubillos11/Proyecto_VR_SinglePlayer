@@ -84270,10 +84270,10 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
+  - {fileID: 2100000, guid: c59b636628844db40958f5dfef6cd75c, type: 2}
+  - {fileID: -2903570360900380800, guid: e93255d7c0c55464287b4ab2b473b4de, type: 3}
   - {fileID: 2100000, guid: 828dae3a25a960c4dae232d1ea51f02e, type: 2}
-  - {fileID: 2100000, guid: 828dae3a25a960c4dae232d1ea51f02e, type: 2}
-  - {fileID: 2100000, guid: 828dae3a25a960c4dae232d1ea51f02e, type: 2}
-  - {fileID: 2100000, guid: 828dae3a25a960c4dae232d1ea51f02e, type: 2}
+  - {fileID: 2702848740510222181, guid: e93255d7c0c55464287b4ab2b473b4de, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -86936,7 +86936,7 @@ MeshRenderer:
   m_Materials:
   - {fileID: 2100000, guid: c59b636628844db40958f5dfef6cd75c, type: 2}
   - {fileID: -2903570360900380800, guid: e93255d7c0c55464287b4ab2b473b4de, type: 3}
-  - {fileID: 2100000, guid: 1b518e6281a1a364bb827486c29e0d62, type: 2}
+  - {fileID: 2100000, guid: 3df16ba83c1cdd345807b3098f6b26ca, type: 2}
   - {fileID: 2702848740510222181, guid: e93255d7c0c55464287b4ab2b473b4de, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -93219,7 +93219,7 @@ MeshRenderer:
   m_Materials:
   - {fileID: 2100000, guid: c59b636628844db40958f5dfef6cd75c, type: 2}
   - {fileID: -2903570360900380800, guid: e93255d7c0c55464287b4ab2b473b4de, type: 3}
-  - {fileID: 2100000, guid: 1b518e6281a1a364bb827486c29e0d62, type: 2}
+  - {fileID: 2100000, guid: 29e21fafda8eafc4fa7740f354420266, type: 2}
   - {fileID: 2702848740510222181, guid: e93255d7c0c55464287b4ab2b473b4de, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -96153,7 +96153,7 @@ GameObject:
   - component: {fileID: 1959161680968439799}
   - component: {fileID: 6108319869958107605}
   m_Layer: 0
-  m_Name: TV_FlatScreen_42in 3
+  m_Name: Monitor 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -96167,20 +96167,20 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6108319869958107604}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: e11102c6f458cb94998c314b08b6e043, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: e300ce07f6a1cca4ea6abe41d52863dc, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
-  m_TargetTexture: {fileID: 0}
+  m_TargetTexture: {fileID: 8400000, guid: 6c6051bf40239ec48ad9d0e6cca8501c, type: 2}
   m_TimeReference: 0
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: <noninit>
-  m_RenderMode: 3
+  m_RenderMode: 2
   m_AspectRatio: 2
   m_DataSource: 0
-  m_TimeUpdateMode: 2
+  m_TimeUpdateMode: 1
   m_PlaybackSpeed: 1
-  m_AudioOutputMode: 2
+  m_AudioOutputMode: 0
   m_TargetAudioSources: []
   m_DirectAudioVolumes: []
   m_Url: 
@@ -96189,7 +96189,7 @@ VideoPlayer:
   m_ControlledAudioTrackCount: 0
   m_PlayOnAwake: 1
   m_SkipOnDrop: 1
-  m_Looping: 0
+  m_Looping: 1
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
   m_VideoShaders: []
@@ -97238,8 +97238,9 @@ GameObject:
   - component: {fileID: 1904308707314259396}
   - component: {fileID: 7299971036681785903}
   - component: {fileID: 4731975391787786331}
+  - component: {fileID: 7299971036681785904}
   m_Layer: 0
-  m_Name: TV_FlatScreen_42in 1
+  m_Name: Monitor 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -97270,7 +97271,7 @@ MeshRenderer:
   m_Materials:
   - {fileID: 2100000, guid: c59b636628844db40958f5dfef6cd75c, type: 2}
   - {fileID: -2903570360900380800, guid: e93255d7c0c55464287b4ab2b473b4de, type: 3}
-  - {fileID: 2100000, guid: 1b518e6281a1a364bb827486c29e0d62, type: 2}
+  - {fileID: 2100000, guid: f0af354f386c95945b95c24c86e0f99c, type: 2}
   - {fileID: 2702848740510222181, guid: e93255d7c0c55464287b4ab2b473b4de, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -97457,10 +97458,10 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
+  - {fileID: 2100000, guid: c59b636628844db40958f5dfef6cd75c, type: 2}
+  - {fileID: -2903570360900380800, guid: e93255d7c0c55464287b4ab2b473b4de, type: 3}
   - {fileID: 2100000, guid: aced46e1d0584934f96475f8b6058b72, type: 2}
-  - {fileID: 2100000, guid: aced46e1d0584934f96475f8b6058b72, type: 2}
-  - {fileID: 2100000, guid: aced46e1d0584934f96475f8b6058b72, type: 2}
-  - {fileID: 2100000, guid: aced46e1d0584934f96475f8b6058b72, type: 2}
+  - {fileID: 2702848740510222181, guid: e93255d7c0c55464287b4ab2b473b4de, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -98573,7 +98574,7 @@ Transform:
   m_GameObject: {fileID: 7282224630037524426}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: 1.1775694e-16, z: 1.1775694e-16, w: 0.7071068}
-  m_LocalPosition: {x: 8.8814125, y: 0.91496557, z: 3.5346239}
+  m_LocalPosition: {x: 8.798, y: 0.91496557, z: 3.535}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -99471,13 +99472,48 @@ GameObject:
   - component: {fileID: 6996736329478112205}
   - component: {fileID: 2319706450499158399}
   - component: {fileID: 6502030497070573167}
+  - component: {fileID: 7282224630037524427}
   m_Layer: 0
-  m_Name: TV_FlatScreen_42in 4
+  m_Name: Monitor 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
   m_IsActive: 1
+--- !u!328 &7282224630037524427
+VideoPlayer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7282224630037524426}
+  m_Enabled: 1
+  m_VideoClip: {fileID: 32900000, guid: 2cc86c8a141807144a3d9fd09434d54e, type: 3}
+  m_TargetCameraAlpha: 1
+  m_TargetCamera3DLayout: 0
+  m_TargetCamera: {fileID: 0}
+  m_TargetTexture: {fileID: 8400000, guid: 1850e93750976104885cd683d6fe4c97, type: 2}
+  m_TimeReference: 0
+  m_TargetMaterialRenderer: {fileID: 0}
+  m_TargetMaterialProperty: <noninit>
+  m_RenderMode: 2
+  m_AspectRatio: 2
+  m_DataSource: 0
+  m_TimeUpdateMode: 1
+  m_PlaybackSpeed: 1
+  m_AudioOutputMode: 0
+  m_TargetAudioSources: []
+  m_DirectAudioVolumes: []
+  m_Url: 
+  m_EnabledAudioTracks: 
+  m_DirectAudioMutes: 
+  m_ControlledAudioTrackCount: 0
+  m_PlayOnAwake: 1
+  m_SkipOnDrop: 1
+  m_Looping: 1
+  m_WaitForFirstFrame: 1
+  m_FrameReadyEventEnabled: 0
+  m_VideoShaders: []
 --- !u!23 &7290676883377044351
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -99570,6 +99606,40 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6500799117523822064}
   m_Mesh: {fileID: -5652270766815781246, guid: e93255d7c0c55464287b4ab2b473b4de, type: 3}
+--- !u!328 &7299971036681785904
+VideoPlayer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6500799117523822064}
+  m_Enabled: 1
+  m_VideoClip: {fileID: 32900000, guid: 47cd3f8112a1a064dbfa1280635cd0bf, type: 3}
+  m_TargetCameraAlpha: 1
+  m_TargetCamera3DLayout: 0
+  m_TargetCamera: {fileID: 0}
+  m_TargetTexture: {fileID: 8400000, guid: af2c00173125afc46998feb540be663a, type: 2}
+  m_TimeReference: 0
+  m_TargetMaterialRenderer: {fileID: 0}
+  m_TargetMaterialProperty: <noninit>
+  m_RenderMode: 2
+  m_AspectRatio: 2
+  m_DataSource: 0
+  m_TimeUpdateMode: 1
+  m_PlaybackSpeed: 1
+  m_AudioOutputMode: 0
+  m_TargetAudioSources: []
+  m_DirectAudioVolumes: []
+  m_Url: 
+  m_EnabledAudioTracks: 
+  m_DirectAudioMutes: 
+  m_ControlledAudioTrackCount: 0
+  m_PlayOnAwake: 1
+  m_SkipOnDrop: 1
+  m_Looping: 1
+  m_WaitForFirstFrame: 1
+  m_FrameReadyEventEnabled: 0
+  m_VideoShaders: []
 --- !u!1 &7314165152127457691
 GameObject:
   m_ObjectHideFlags: 0
