@@ -11,6 +11,9 @@ public class NumberGameManager : MonoBehaviour
     public GameObject[] doors; // Array para manejar múltiples puertas
     public string finalMessage = "¡Felicidades! Has encontrado el año de nacimiento de Dayana: 1983.";
 
+    // Referencia al script SlidingDoor para abrir las puertas deslizantes
+    public SlidingDoor[] slidingDoors;
+
     void Awake()
     {
         // Singleton pattern implementation
@@ -43,9 +46,19 @@ public class NumberGameManager : MonoBehaviour
 
     void OpenDoors()
     {
+        // Desactivar las puertas físicas si es necesario
         foreach (GameObject door in doors)
         {
-            door.SetActive(false); // Abre cada puerta
+            door.SetActive(false);
+        }
+
+        // Abrir las puertas deslizantes
+        foreach (SlidingDoor slidingDoor in slidingDoors)
+        {
+            if (slidingDoor != null)
+            {
+                slidingDoor.OpenDoors();
+            }
         }
     }
 }
