@@ -14,6 +14,9 @@ public class NumberGameManager : MonoBehaviour
     // Referencia al script SlidingDoor para abrir las puertas deslizantes
     public SlidingDoor[] slidingDoors;
 
+    // Nueva referencia al segundo panel
+    public GameObject secondPanel; // Asegúrate de asignar este panel en el Inspector
+
     void Awake()
     {
         // Singleton pattern implementation
@@ -59,6 +62,17 @@ public class NumberGameManager : MonoBehaviour
             {
                 slidingDoor.OpenDoors();
             }
+        }
+
+        // Activar el segundo panel
+        if (secondPanel != null)
+        {
+            secondPanel.SetActive(true);
+            Debug.Log("Segundo panel activado.");
+        }
+        else
+        {
+            Debug.LogWarning("El segundo panel no está asignado en el Inspector.");
         }
     }
 }
