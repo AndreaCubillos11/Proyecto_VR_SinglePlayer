@@ -12130,7 +12130,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 2, y: 5, z: 2}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &308889364 stripped
 MonoBehaviour:
@@ -67543,7 +67543,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adcd0955692bd08439e4df98949d990f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxDistance: 5
+  maxDistance: 8
 --- !u!82 &1817697570
 AudioSource:
   m_ObjectHideFlags: 0
@@ -67656,12 +67656,12 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.96, y: 0.76, z: 0.16}
-  m_Center: {x: 0.00000036189903, y: -0.022594621, z: 0.05842409}
+  m_Size: {x: 0.9599999, y: 0.7599999, z: 0.43451455}
+  m_Center: {x: 0.0000003754624, y: -0.022594625, z: 0.1956815}
 --- !u!114 &1817697574
 MonoBehaviour:
   m_ObjectHideFlags: 0

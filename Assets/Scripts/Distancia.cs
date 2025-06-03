@@ -23,33 +23,31 @@ public class Distancia : MonoBehaviour
         }
     }
 
-    void Update()
+    void OnTriggerEnter(Collider other)
     {
-        if (audioSource != null)
+        Debug.Log($"OnTriggerEnter detected with object: {other.gameObject.name}, tag: {other.tag}");
+        Dep.text = $"Trigger Enter: {other.gameObject.name} (tag: {other.tag})";
+
+        if (other.CompareTag("Player") && !isPlaying)
         {
-            GameObject player = GameObject.FindGameObjectWithTag("Player");
-            if (player != null)
-            {
-                float distance = Vector3.Distance(transform.position, player.transform.position);
-               Dep.text = "Distancia: " + distance.ToString();
-                if (distance <= maxDistance && !isPlaying)
-                {
-                    audioSource.Play();
-                    isPlaying = true;
-                    Debug.Log("Audio should be playing.");
-                    Dep.text = "Audio sonando" + distance.ToString();
-                }
-                else if (distance > maxDistance && isPlaying)
-                {
-                    audioSource.Stop();
-                    isPlaying = false;
-                    Debug.Log("Audio should be stopped.");
-                    Dep.text = "Audio detenido" + distance.ToString();
-                }else
-                {
-                    //Dep.text = "Distancia: "
-                }
-            }
+            audioSource.Play();
+            isPlaying = true;
+            Debug.Log("Audio started playing.");
+            Dep.text = $"Audio sonando - {other.gameObject.name}";
+        }
+    }
+
+    void OnTriggerExit(Collider other)
+    {
+        Debug.Log($"OnTriggerExit detected with object: {other.gameObject.name}, tag: {other.tag}");
+        Dep.text = $"Trigger Exit: {other.gameObject.name} (tag: {other.tag})";
+
+        if (other.CompareTag("Player") && isPlaying)
+        {
+            audioSource.Stop();
+            isPlaying = false;
+            Debug.Log("Audio stopped.");
+            Dep.text = $"Audio detenido - {other.gameObject.name}";
         }
     }
 }
