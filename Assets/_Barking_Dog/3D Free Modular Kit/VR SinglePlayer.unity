@@ -12175,6 +12175,11 @@ MonoBehaviour:
   totalFolders: 5
   foldersText: {fileID: 1855959661}
   door: {fileID: 2031988384}
+  MensajeFinal: "Sabias que cuando Dayana era ni\xF1a en Cali, Colombia, usaba una
+    carpeta escolar para guardar recortes y fotos de cohetes y planetas, so\xF1ando
+    con trabajar alg\xFAn d\xEDa en la NASA. A\xF1os despu\xE9s, se convirti\xF3
+    en la primera mujer latinoamericana en liderar una misi\xF3n de exploraci\xF3n
+    en Marte."
 --- !u!4 &308889387 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2218496723442559053, guid: d6878e1999eb4b44a9f5a263af86c185,
@@ -32787,7 +32792,7 @@ PrefabInstance:
     - target: {fileID: 2218496723442559053, guid: d6878e1999eb4b44a9f5a263af86c185,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.194
+      value: -21.2
       objectReference: {fileID: 0}
     - target: {fileID: 2218496723442559053, guid: d6878e1999eb4b44a9f5a263af86c185,
         type: 3}
@@ -32797,7 +32802,7 @@ PrefabInstance:
     - target: {fileID: 2218496723442559053, guid: d6878e1999eb4b44a9f5a263af86c185,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.045
+      value: 3.98
       objectReference: {fileID: 0}
     - target: {fileID: 2218496723442559053, guid: d6878e1999eb4b44a9f5a263af86c185,
         type: 3}
@@ -34852,8 +34857,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 12.6, y: 13}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 16.53, y: 12.157}
+  m_SizeDelta: {x: 7.86, y: 1.685}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &924654253
 MonoBehaviour:
@@ -45878,6 +45883,11 @@ MonoBehaviour:
   totalFolders: 5
   foldersText: {fileID: 1855959661}
   door: {fileID: 2031988384}
+  MensajeFinal: "Sabias que cuando Dayana era ni\xF1a en Cali, Colombia, usaba una
+    carpeta escolar para guardar recortes y fotos de cohetes y planetas, so\xF1ando
+    con trabajar alg\xFAn d\xEDa en la NASA. A\xF1os despu\xE9s, se convirti\xF3
+    en la primera mujer latinoamericana en liderar una misi\xF3n de exploraci\xF3n
+    en Marte."
 --- !u!1001 &1242530766
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -69795,7 +69805,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1855959659}
   m_LocalRotation: {x: -0.00000009096945, y: 0.0174735, z: 0.000000019557774, w: 0.9998474}
-  m_LocalPosition: {x: 0, y: 0, z: -6.4998636}
+  m_LocalPosition: {x: 0, y: 0, z: -6.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -69803,7 +69813,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 2.002, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -1.5000029, y: -7.7999997}
+  m_AnchoredPosition: {x: -2.9, y: -7.76}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1855959661
@@ -69826,7 +69836,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Folders Collected: 0 / 5'
+  m_text: :)
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -69853,8 +69863,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 6
-  m_fontSizeBase: 6
+  m_fontSize: 2
+  m_fontSizeBase: 2
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
