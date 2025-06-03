@@ -9,6 +9,7 @@ public class KeyController : MonoBehaviour
     private int collectedKeys = 0; // Llaves recolectadas
     public TMP_Text foldersText; // Texto para mostrar el conteo de llaves
     public GameObject door; // Puerta que se abre al completar
+    public string UltimoMensaje = "Durante la misión del rover Perseverance en 2021, Dayana fue la primera persona en narrar una transmisión de la NASA completamente en español, acercando una misión espacial histórica a millones de hispanohablantes en todo el mundo.";
 
     void Awake()
     {
@@ -20,7 +21,7 @@ public class KeyController : MonoBehaviour
         collectedKeys++; // Incrementa el conteo de llaves recolectadas
         if (foldersText != null) // Verifica que foldersText no sea null
         {
-            foldersText.text = $"Carpetas: {collectedKeys}/{totalKey}"; // Actualiza el texto
+            foldersText.text = $"Busca el Logo de la NASA"; // Actualiza el texto
         }
         else
         {
@@ -31,6 +32,7 @@ public class KeyController : MonoBehaviour
         {
             if (door != null) // Verifica que door no sea null
             {
+                foldersText.text = UltimoMensaje;
                 door.SetActive(false); // Abre la puerta
             }
             else
