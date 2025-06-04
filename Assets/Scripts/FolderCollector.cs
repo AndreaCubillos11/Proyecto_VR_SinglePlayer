@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
     private int collectedFolders = 0;
     public TMP_Text foldersText;
     public GameObject door; // Puerta que se abre al completar
-    public string MensajeFinal = "Sabias que cuando Dayana era niña en Cali, Colombia, usaba una carpeta escolar para guardar recortes y fotos de cohetes y planetas, soñando con trabajar algún día en la NASA. Años después, se convirtió en la primera mujer latinoamericana en liderar una misión de exploración en Marte.";
+    public string MensajeFinal = "¿Sabías que cuando vivía en Cali, Colombia, de niña, Dayana guardaba recortes y fotos de cohetes y planetas en una carpeta escolar, soñando con trabajar algún día en la NASA? Años más tarde, ese sueño la llevó a convertirse en la primera mujer latinoamericana en liderar una misión de exploración en Marte.";
 
     void Awake()
     {

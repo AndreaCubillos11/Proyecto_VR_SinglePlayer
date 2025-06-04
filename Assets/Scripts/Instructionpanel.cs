@@ -3,7 +3,7 @@ using UnityEngine;
 public class InstructionPanel : MonoBehaviour
 {
     public GameObject instructionPanel;
-    public float showDistance = 3f;
+    public float showDistance = 5f;
     public Transform target; // Asigna el transform del jugador en el inspector
 
     void Start()
@@ -16,7 +16,7 @@ public class InstructionPanel : MonoBehaviour
         if (Vector3.Distance(transform.position, target.position) < showDistance)
         {
             instructionPanel.SetActive(true);
-            Invoke("HidePanel", 12f); // Oculta el panel después de 20 segundos
+            Invoke("HidePanel", 20f); // Oculta el panel después de 20 segundos
         }
     }
 
