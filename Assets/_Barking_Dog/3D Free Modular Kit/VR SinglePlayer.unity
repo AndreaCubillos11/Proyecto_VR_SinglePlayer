@@ -2375,17 +2375,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: de0cbddd2998efc4d8dbfe8006799e37,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.457
+      value: -0.712
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: de0cbddd2998efc4d8dbfe8006799e37,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.718
+      value: -1.735
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: de0cbddd2998efc4d8dbfe8006799e37,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -6.932
+      value: -6.929
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: de0cbddd2998efc4d8dbfe8006799e37,
         type: 3}
@@ -9258,8 +9258,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -469.99902, y: -268.566}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -469.76007, y: -268.59973}
+  m_SizeDelta: {x: 261.183, y: 42.463}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &235627268
 MonoBehaviour:
@@ -11765,6 +11765,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1988600837}
+    - targetCorrespondingSourceObject: {fileID: 2894462881985091340, guid: f4aaac2c718ce5047941ae80e5a312db,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 647256112}
   m_SourcePrefab: {fileID: 100100000, guid: f4aaac2c718ce5047941ae80e5a312db, type: 3}
 --- !u!4 &297177090 stripped
 Transform:
@@ -15376,17 +15380,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: de0cbddd2998efc4d8dbfe8006799e37,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.417
+      value: -0.683
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: de0cbddd2998efc4d8dbfe8006799e37,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.704
+      value: -1.71
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: de0cbddd2998efc4d8dbfe8006799e37,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.952
+      value: -7.956
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: de0cbddd2998efc4d8dbfe8006799e37,
         type: 3}
@@ -24245,6 +24249,39 @@ MonoBehaviour:
   m_Teleporting:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &647256108 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2894462881985091340, guid: f4aaac2c718ce5047941ae80e5a312db,
+    type: 3}
+  m_PrefabInstance: {fileID: 297177089}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &647256112
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 647256108}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &647510631 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 173238, guid: 8db5b99e1590340a4a7166fa4c9f9cf2,
@@ -28521,17 +28558,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: ce47b0fc3673362499c0322922255634,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.46699944
+      value: -0.727
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ce47b0fc3673362499c0322922255634,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.7980001
+      value: -1.8
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ce47b0fc3673362499c0322922255634,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.443001
+      value: -7.451
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ce47b0fc3673362499c0322922255634,
         type: 3}
@@ -40604,17 +40641,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 735ffe652be75d04687c0455fa93695f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.1183815
+      value: 0.852
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 735ffe652be75d04687c0455fa93695f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.215969
+      value: -3.172
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 735ffe652be75d04687c0455fa93695f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.51259995
+      value: 0.499
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 735ffe652be75d04687c0455fa93695f,
         type: 3}
@@ -48804,7 +48841,7 @@ PrefabInstance:
     - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189,
         type: 3}
@@ -48983,17 +49020,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: de0cbddd2998efc4d8dbfe8006799e37,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.42599946
+      value: -0.693
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: de0cbddd2998efc4d8dbfe8006799e37,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.712
+      value: -1.715
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: de0cbddd2998efc4d8dbfe8006799e37,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.6020007
+      value: -7.62
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: de0cbddd2998efc4d8dbfe8006799e37,
         type: 3}
@@ -56948,17 +56985,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: baf34635a56899e4b9d33e93ffdeff52,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.226
+      value: 9.2537
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: baf34635a56899e4b9d33e93ffdeff52,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.205
+      value: -2.2197
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: baf34635a56899e4b9d33e93ffdeff52,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -14.598
+      value: -14.6086
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: baf34635a56899e4b9d33e93ffdeff52,
         type: 3}
@@ -62696,7 +62733,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6586592, guid: c76d2d3504ddb4847940a815cad04644, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -64565,7 +64602,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 47}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1719291336
@@ -64588,10 +64625,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\xA1\xA1Es hora de jugar! \n\nAhora, al lado izquierdo encontrar\xE1s
-    4 pistas que debes descifrar. Estos 4 n\xFAmeros combinan un a\xF1o importante
-    de Dayana. Por lo tanto, debes recolectar los 4 n\xFAmeros en el orden de las
-    pistas. Una vez que lo hagas, podr\xE1s pasar a la siguiente zona."
+  m_text: "\xA1Es hora de jugar! \n\nAhora, al lado izquierdo encontrar\xE1s 4 pistas
+    que debes descifrar. Estos 4 n\xFAmeros combinan un a\xF1o importante de Dayana.
+    Por lo tanto, debes recolectar los 4 n\xFAmeros en el orden de las pistas. Una
+    vez que lo hagas, podr\xE1s pasar a la siguiente zona.\n\nTen en cuenta que al
+    recolectar los n\xFAmeros, estos desaparecer\xE1n y se sumar\xE1n autom\xE1ticamente
+    en el panel ubicado frente a la puerta hacia la siguiente zona."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -64656,7 +64695,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -266.2226, y: -179.42094, z: -297.33173, w: -211.16586}
+  m_margin: {x: -406.9472, y: -179.42094, z: -424.51642, w: -351.09634}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -68572,17 +68611,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: de0cbddd2998efc4d8dbfe8006799e37,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.44399944
+      value: -0.703
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: de0cbddd2998efc4d8dbfe8006799e37,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.7140001
+      value: -1.732
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: de0cbddd2998efc4d8dbfe8006799e37,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.2620006
+      value: -7.284
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: de0cbddd2998efc4d8dbfe8006799e37,
         type: 3}
@@ -76537,7 +76576,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1962950544}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -76545,7 +76584,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -8, y: -21}
+  m_AnchoredPosition: {x: -13, y: -21}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1962950546
@@ -76569,8 +76608,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "\xBFListo para la b\xFAsqueda?\r\n\r\nEncuentra las 5 carpetas rojas ocultas
-    para desbloquear la siguiente zona.\n\n\xA1Explora y recolecta para avanzar en
-    el juego!"
+    para desbloquear la siguiente zona.\n\nTen en cuenta que las carpetas desaparecer\xE1n
+    autom\xE1ticamente al ser recolectadas.\n\n\xA1Explora y recolecta para avanzar
+    en el juego!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -76635,7 +76675,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -300.62482, y: -186.88916, z: -323.89963, w: -134.42091}
+  m_margin: {x: -300.62482, y: -212.3645, z: -357.14444, w: -134.42091}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
