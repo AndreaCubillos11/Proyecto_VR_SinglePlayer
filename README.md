@@ -20,8 +20,6 @@ Acercar el conocimiento científico a públicos no especializados, haciéndolo *
 
 ## 🧩 Aspectos Metodológicos
 
-![Aspectos Metodológicos](./aspectos_metodologicos.png)
-
 ### 🧱 Plataforma Unity
 Desarrollo en Unity para crear experiencias inmersivas de realidad virtual.
 
