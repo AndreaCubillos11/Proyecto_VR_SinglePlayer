@@ -57,19 +57,25 @@ Evaluación continua mediante pruebas de usuario para mejorar la experiencia y l
 
 ## 📸 Galería
 
-![imagen](https://github.com/user-attachments/assets/c29b1dc3-00dc-4d76-a8bf-ffc8d05a2354)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/c29b1dc3-00dc-4d76-a8bf-ffc8d05a2354" width="400" />
+  <img src="https://github.com/user-attachments/assets/67494910-3332-4927-9f16-1df199697654" width="400" />
+</div>
 
-<img width="1364" height="578" alt="imagen" src="https://github.com/user-attachments/assets/67494910-3332-4927-9f16-1df199697654" />
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/26466712-8391-4167-80ce-0a8a25087bec" width="400" />
+  <img src="https://github.com/user-attachments/assets/fdc46587-150a-4ddf-9a36-fbf430563077" width="400" />
+</div>
 
-![imagen (1)](https://github.com/user-attachments/assets/26466712-8391-4167-80ce-0a8a25087bec)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/f4ea3077-051e-4b44-884a-48d9d5410079" width="400" />
+  <img src="https://github.com/user-attachments/assets/855b86ab-b1d4-4991-bd7d-b744647f3e93" width="400" />
+</div>
 
-<img width="1365" height="577" alt="imagen (1)" src="https://github.com/user-attachments/assets/fdc46587-150a-4ddf-9a36-fbf430563077" />
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/489bc925-4180-453f-bf20-4b0778fb0393" width="400" />
+</div>
 
-![imagen (2)](https://github.com/user-attachments/assets/f4ea3077-051e-4b44-884a-48d9d5410079)
-
-![imagen (3)](https://github.com/user-attachments/assets/855b86ab-b1d4-4991-bd7d-b744647f3e93)
-
-<img width="1365" height="574" alt="imagen (2)" src="https://github.com/user-attachments/assets/489bc925-4180-453f-bf20-4b0778fb0393" />
 
 
 
