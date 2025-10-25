@@ -10,7 +10,7 @@ A través de **desafíos interactivos** y **minijuegos**, el proyecto busca moti
 Este proyecto forma parte de la iniciativa **“AteneaSTEAM: Diseño participativo y evaluación de un ambiente de realidad virtual para el fortalecimiento de la identidad científica femenina de jóvenes colombianas”**, desarrollada en la **Fundación Universitaria Konrad Lorenz**.
 Su propósito es emplear la **realidad virtual** como herramienta educativa para **promover vocaciones científicas femeninas** y **cerrar la brecha de género en los campos STEAM**.
 
-La experiencia **"Dayana, una historia para despegar"** fue concebida como un **prototipo funcional monousuario**, es decir, una experiencia diseñada para ser vivida de forma **individual e introspectiva**, permitiendo que cada participante explore y reflexione a su propio ritmo sobre la historia y los desafíos propuestos.
+La experiencia **"Dayana, una historia para despegar"** fue concebida como un **prototipo funcional monousuario**, desarrollado para las **gafas de realidad virtual Meta Quest 2**. Está diseñada para vivirse de forma **individual e introspectiva**, brindando a cada participante la posibilidad de explorar el entorno, interactuar con los elementos y reflexionar a su propio ritmo sobre la historia y los desafíos propuestos.
 
 El desarrollo se basa en la historia real de la científica colombiana **Diana Trujillo**, destacada ingeniera aeroespacial de la **NASA**, cuya trayectoria inspira la narrativa inmersiva del proyecto. A partir de su vida y logros, se diseñó una historia simbólica que busca representar **el viaje de superación, esfuerzo y descubrimiento personal** de una mujer colombiana que alcanza las estrellas.
 
@@ -56,6 +56,9 @@ Integración de desafíos interactivos para fortalecer el aprendizaje y la explo
 
 El diseño monousuario favorece una experiencia **reflexiva y personalizada**, centrada en la conexión emocional entre el usuario y la historia. Cada persona puede recorrer el entorno, interactuar con los elementos y avanzar a su ritmo, lo que potencia la inmersión narrativa.
 
+### 🕶️ Dispositivo de Ejecución
+
+La experiencia fue desarrollada para su funcionamiento en las gafas de realidad virtual **Meta Quest 2**, brindando una inmersión total y una interacción fluida dentro del entorno educativo.
 ---
 
 ## ⚖️ Consideraciones Éticas
