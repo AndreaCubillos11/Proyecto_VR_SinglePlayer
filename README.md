@@ -59,6 +59,7 @@ El diseño monousuario favorece una experiencia **reflexiva y personalizada**, c
 ### 🕶️ Dispositivo de Ejecución
 
 La experincia fue desarrollada para su funcionamiento en las gafas de realidad virtual **Meta Quest 2**, brindando una inmersión y una interacción fluida dentro del entorno educativo. 
+
 ---
 
 ## ⚖️ Consideraciones Éticas
