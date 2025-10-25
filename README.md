@@ -1,7 +1,7 @@
 # 🌌 Dayana, una historia para despegar
 
 **"Dayana, una historia para despegar"** es una experiencia educativa de **realidad virtual** que relata la inspiradora historia de **Dayana**, una científica colombiana.  
-A través de **desafíos interactivos** y **minijuegos**, el proyecto busca motivar a la próxima generación a explorar los campos de **Ciencia, Tecnología, Ingeniería y Matemáticas (STEM)**.
+A través de **desafíos interactivos** y **minijuegos**, el proyecto busca motivar a la próxima generación a explorar los campos de **Ciencia, Tecnología, Ingeniería, Arte y Matemáticas (STEAM)**.
 
 ---
 
