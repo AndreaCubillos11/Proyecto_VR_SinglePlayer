@@ -8,7 +8,7 @@ A través de **desafíos interactivos** y **minijuegos**, el proyecto busca moti
 ## 🎯 Objetivos
 
 ### 🌟 Inspirar a Jóvenes
-Fomentar vocaciones en ciencia, tecnología, ingeniería y matemáticas (STEM), especialmente entre mujeres jóvenes.
+Fomentar vocaciones en ciencia, tecnología, ingeniería, Arte y matemáticas (STEAM), especialmente entre mujeres jóvenes Colombianas.
 
 ### 🤝 Promover la Diversidad
 Promover la inclusión y demostrar que la ciencia es para todos, sin importar el origen o contexto.
@@ -21,16 +21,13 @@ Acercar el conocimiento científico a públicos no especializados, haciéndolo *
 ## 🧩 Aspectos Metodológicos
 
 ### 🧱 Plataforma Unity
-Desarrollo en Unity para crear experiencias inmersivas de realidad virtual.
+Desarrollo en la versión 6 de Unity para crear experiencias inmersivas de realidad virtual.
 
 ### 🎧 Narrativa Inmersiva
 Diseño de una historia envolvente dividida en zonas temáticas que refuerzan la conexión emocional con la protagonista.
 
 ### 🎮 Minijuegos Educativos
 Integración de desafíos interactivos para fortalecer el aprendizaje y la exploración activa.
-
-### ✅ Pruebas y Feedback
-Evaluación continua mediante pruebas de usuario para mejorar la experiencia y la accesibilidad.
 
 ---
 
@@ -47,7 +44,7 @@ Evaluación continua mediante pruebas de usuario para mejorar la experiencia y l
 
 - **Unity** – Desarrollo de entornos y mecánicas en VR.  
 - **C#** – Programación de interactividad y lógica de juego.  
-- **Blender / 3D Assets** – Modelado de elementos del entorno.  
+- **3D Assets** – Modelados de elementos del entorno.  
 - **GitHub** – Control de versiones y colaboración.  
 
 ---
