@@ -5,7 +5,7 @@ A través de **desafíos interactivos** y **minijuegos**, el proyecto busca moti
 
 ---
 
-🧠 Contexto Institucional
+## 🧠 Contexto Institucional
 
 Este proyecto forma parte de la iniciativa **“AteneaSTEAM: Diseño participativo y evaluación de un ambiente de realidad virtual para el fortalecimiento de la identidad científica femenina de jóvenes colombianas”**, desarrollada en la **Fundación Universitaria Konrad Lorenz**.
 Su propósito es emplear la **realidad virtual** como herramienta educativa para **promover vocaciones científicas femeninas** y **cerrar la brecha de género en los campos STEAM**.
@@ -58,12 +58,12 @@ El diseño monousuario favorece una experiencia **reflexiva y personalizada**, c
 
 ### 🕶️ Dispositivo de Ejecución
 
-La experiencia fue desarrollada para su funcionamiento en las gafas de realidad virtual **Meta Quest 2**, brindando una inmersión total y una interacción fluida dentro del entorno educativo.
+La experincia fue desarrollada para su funcionamiento en las gafas de realidad virtual **Meta Quest 2**, brindando una inmersión y una interacción fluida dentro del entorno educativo. 
 ---
 
 ## ⚖️ Consideraciones Éticas
 
-- **Representación respetuosa:** basada en la historia real de **Diana Trujillo**, científica colombiana de la NASA.  
+- **Representación respetuosa:** basada en la historia real de **Diana Trujillo**, científica colombiana de la NASA. 
 - **Inclusión y diversidad:** la ciencia es accesible para todos los públicos.  
 - **Accesibilidad:** diseño pensado para diferentes habilidades y necesidades.  
 - **Transparencia:** comunicación clara sobre los objetivos, el proceso y los métodos del proyecto.
@@ -79,7 +79,7 @@ La experiencia fue desarrollada para su funcionamiento en las gafas de realidad 
 
 ---
 
-⚙️ Ejecución del Proyecto
+## ⚙️ Ejecución del Proyecto
 
 Para ejecutar la experiencia de realidad virtual "Dayana, una historia para despegar", sigue los siguientes pasos:
 
@@ -112,7 +112,7 @@ https://github.com/AndreaCubillos11/Proyecto_VR_SinglePlayer.git
    - Colócate el visor para disfrutar de la experiencia inmersiva.
 ---
 
-💡 Requisitos Técnicos
+## 💡 Requisitos Técnicos
 
 - Plataforma: Unity 6000.0.46f1.
 
