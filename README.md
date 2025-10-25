@@ -79,6 +79,52 @@ La experiencia fue desarrollada para su funcionamiento en las gafas de realidad 
 
 ---
 
+⚙️ Ejecución del Proyecto
+
+Para ejecutar la experiencia de realidad virtual "Dayana, una historia para despegar", sigue los siguientes pasos:
+
+1. Clonar el repositorio:
+```bash
+https://github.com/AndreaCubillos11/Proyecto_VR_SinglePlayer.git
+```
+2. Abrir el proyecto en Unity:
+
+  - Versión recomendada: Unity 6000.0.46f1.
+
+  - Asegúrate de tener instalados los módulos de Android Build Support y Oculus XR Plugin.
+
+3. Configurar el entorno de ejecución:
+
+  - Conecta las gafas Meta Quest 2 al equipo mediante cable o conexión inalámbrica.
+
+  - En las opciones de Build Settings de Unity, selecciona Android → Oculus Quest como plataforma de destino.
+
+4. Compilar e instalar la aplicación:
+
+   - Ejecuta Build and Run desde Unity para generar el archivo ```bash.apk```. Antes de iniciar la compilación, selecciona una carpeta en tu equipo donde se guardará el archivo y asígnale un nombre. 
+
+   - Una vez completado el proceso anterior, la aplicación se instalará automáticamente en las gafas Meta Quest 2.
+
+5. Iniciar la experiencia:
+
+   - En el menú principal de las Meta Quest 2, selecciona la aplicación con el nombre que hayas asignado al archivo ```bash.apk```
+
+   - Colócate el visor para disfrutar de la experiencia inmersiva.
+---
+
+💡 Requisitos Técnicos
+
+- Plataforma: Unity 6000.0.46f1.
+
+- Dispositivo: Gafas de realidad virtual Meta Quest 2.
+
+- Lenguaje de programación: C#.
+
+- Sistema operativo: Windows 10/11.
+
+- Memoria mínima recomendada: 8 GB RAM.
+
+- Espacio en disco: 2 GB disponibles.
 
 ## 📸 Galería
 
