@@ -5,6 +5,29 @@ A través de **desafíos interactivos** y **minijuegos**, el proyecto busca moti
 
 ---
 
+🧠 Contexto Institucional
+
+Este proyecto forma parte de la iniciativa **“AteneaSTEAM: Diseño participativo y evaluación de un ambiente de realidad virtual para el fortalecimiento de la identidad científica femenina de jóvenes colombianas”**, desarrollada en la **Fundación Universitaria Konrad Lorenz**.
+Su propósito es emplear la **realidad virtual** como herramienta educativa para **promover vocaciones científicas femeninas** y **cerrar la brecha de género en los campos STEAM**.
+
+La experiencia **"Dayana, una historia para despegar"** fue concebida como un **prototipo funcional monousuario**, es decir, una experiencia diseñada para ser vivida de forma **individual e introspectiva**, permitiendo que cada participante explore y reflexione a su propio ritmo sobre la historia y los desafíos propuestos.
+
+El desarrollo se basa en la historia real de la científica colombiana **Diana Trujillo**, destacada ingeniera aeroespacial de la **NASA**, cuya trayectoria inspira la narrativa inmersiva del proyecto. A partir de su vida y logros, se diseñó una historia simbólica que busca representar **el viaje de superación, esfuerzo y descubrimiento personal** de una mujer colombiana que alcanza las estrellas.
+
+La narrativa se estructura en **cuatro zonas temáticas** que guían la progresión del usuario dentro del entorno de realidad virtual:
+
+1. **Pasillo 1 – Los primeros pasos:**
+Introduce los orígenes de Dayana, su entorno familiar y las primeras motivaciones que despiertan su interés por la ciencia.
+
+2. **Sala 1 – El camino del aprendizaje:**
+Esta sala está compuesta por cuatro espacios que representan el trabajo, la dedicación y la oportunidad que llevó a Dayana a ingresar a la NASA. En ella, el usuario participa en un desafío inspirado en su vida académica, la cual aportó a su proceso de formación como científica.
+
+3. **Pasillo 2 – Rumbo al espacio:**
+Se exploran símbolos y referencias al trabajo de Dayana en la NASA, incluyendo una búsqueda del logo oculto de la agencia.
+
+4. **Sala 2 – El legado que inspira:**
+En esta sala se contemplan elementos alusivos a la NASA y a uno de los proyectos más importantes en los que Dayana participó, destacando sus logros y transmitiendo un mensaje de empoderamiento y vocación científica.
+---
 ## 🎯 Objetivos
 
 ### 🌟 Inspirar a Jóvenes
@@ -28,6 +51,10 @@ Diseño de una historia envolvente dividida en zonas temáticas que refuerzan la
 
 ### 🎮 Minijuegos Educativos
 Integración de desafíos interactivos para fortalecer el aprendizaje y la exploración activa.
+
+### 👩‍🚀 Enfoque Monousuario
+
+El diseño monousuario favorece una experiencia **reflexiva y personalizada**, centrada en la conexión emocional entre el usuario y la historia. Cada persona puede recorrer el entorno, interactuar con los elementos y avanzar a su ritmo, lo que potencia la inmersión narrativa.
 
 ---
 
@@ -72,6 +99,10 @@ Integración de desafíos interactivos para fortalecer el aprendizaje y la explo
 </div>
 
 
+## 📚 Referencias
+
+- Fundación Universitaria Konrad Lorenz (2025). *AteneaSTEAM: Diseño participativo y evaluación de un ambiente de realidad virtual para el fortalecimiento de la identidad científica femenina de jóvenes colombianas.*  
+- Inspirado en la trayectoria de **Diana Trujillo**, ingeniera aeroespacial colombiana y líder del equipo de la NASA en la misión Mars Perseverance.
 
 
 
