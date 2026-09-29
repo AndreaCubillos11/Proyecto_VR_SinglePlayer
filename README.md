@@ -31,7 +31,7 @@ En esta sala se contemplan elementos alusivos a la NASA y a uno de los proyectos
 ## 🎯 Objetivos
 
 ### 🌟 Inspirar a Jóvenes
-Fomentar vocaciones en ciencia, tecnología, ingeniería, Arte y matemáticas (STEAM), especialmente entre mujeres jóvenes Colombianas.
+Fomentar vocaciones en Ciencia, Tecnología, Ingeniería, Arte y Matemáticas (STEAM), especialmente entre mujeres jóvenes Colombianas.
 
 ### 🤝 Promover la Diversidad
 Promover la inclusión y demostrar que la ciencia es para todos, sin importar el origen o contexto.
